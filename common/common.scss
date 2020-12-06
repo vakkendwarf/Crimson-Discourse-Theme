@@ -1,0 +1,228 @@
+//
+// Disable horrible highlight fade out
+//
+.highlighted
+{
+    animation: background-fade-highlight 0s !important;
+}
+
+//
+// Don't show the "this is their first post" thing
+//
+.post-notice.new-user
+{
+    display: none;
+}
+
+nav.post-controls
+{
+    font-size: 12px;
+}
+
+
+.category-list
+{
+    thead
+    {
+        background-color: var( --header_background );
+        
+        tr
+        {
+            border: none !important;
+        }
+        
+        th
+        {
+            color: var( --tertiary-low );
+            padding: 1rem 2rem;
+        }
+    }
+    
+    tbody
+    {
+        border: none !important;
+        
+        tr
+        {
+            border-bottom: none !important;
+            
+            td
+            {
+                &.latest
+                {
+                    padding: 1rem;
+                    padding-left: 2rem;
+                }
+                
+                &.topics
+                {
+                    padding-top: 2rem;
+                }
+                
+                &.category  
+                {
+                    border: 0 !important;
+                    width: 100%;
+                    
+                    .category-card
+                    {
+                        display: flex;  
+                        width: 100%;
+                        
+                        .subcategories
+                        {
+                            display: flex;
+                            flex-wrap: wrap;
+                            flex-direction: column;
+                        }
+                        
+                       .subcategory
+                        {
+                            position: relative;
+                            margin-right: 0.3em;
+                            margin-bottom: 0.3rem;
+                            
+                            .badge-category
+                            {
+                                padding: 2px 3px;
+                            }
+                            
+                           .badge-notification
+                            {
+                                padding: 4px 5px;
+                                background-color: var(--highlight);
+                                color: var(--secondary);
+                                font-size: 10px;
+                                z-index: 100;
+                                display: inline-block;
+                                border-radius: 4px;
+                                margin: 0;
+                            }
+                        }
+
+                        >.category-icon
+                        {
+                            padding: 1rem;
+                            
+                            img
+                            {
+                                width: 50px;
+                                height: 50px;
+                                transform: rotate(-4deg);
+                                border-radius: 5px;
+                                box-shadow: 4px 4px 10px rgba( 0, 0, 0, 0.1);
+                            }
+                        }
+                        
+                        >.category-detail
+                        {
+                            padding: 1rem;
+                            padding-left: 0;
+                            
+                            .category-text-title
+                            {
+                                font-family: var( --heading-font-family );
+                                font-weight: bold;
+                                font-size: 2rem;
+                                color: var( --primary );
+                                margin-bottom: 0rem;
+                            }
+                            
+                            .category-description
+                            {
+                                color: var( --header_primary-medium );
+                                font-size: 0.9rem;
+                                margin: 0;
+                                margin-bottom: 1rem;
+                            }
+                        }
+                        
+                    }
+                    
+                }
+            }
+        }
+    }
+}
+
+.category-list .topics
+{
+    width: 25px;
+}
+
+.list-controls
+{
+    font-size: 0.8rem;
+}
+
+.nav-pills>li a,
+.list-controls .combo-box .combo-box-header, 
+.list-controls button.btn, 
+.list-controls button.btn:hover, 
+{
+    border: none;
+    background-color: transparent;
+    color: var( --header_primary-low-mid );
+}
+
+.nav-pills>li a.active, .nav-pills>li a:hover
+{
+    background-color: transparent;
+    color: var( --highlight );
+}
+
+.categories-list .list-controls .category-drop,
+.categories-list .list-controls .tag-drop
+{
+    display: none;
+}
+
+.category-list.with-topics
+{
+    margin-left: 0;
+}
+
+.hljs 
+{
+    padding: 16px;
+    border-radius: 2px;
+    background-color: #3c3c40;
+    color: #ccc;
+    font-size: 12px;
+    
+    .hljs-subst
+    {
+        color: #ccc;    
+    }
+    
+    .hljs-keyword, .hljs-literal, .hljs-built_in
+    {
+        color: #71beff;
+        font-weight: normal;
+    }
+    
+    .hljs-string
+    {
+        color: #da7c3a;
+    }
+    
+    .hljs-title
+    {
+        color: #41d0a8;
+        font-weight: normal;
+    }
+    
+    .hljs-number
+    {
+        color: #b2dc93;
+    }
+    
+    .hljs-comment, .hljs-doctag
+    {
+        font-style: normal;
+        color: #52b713;
+    }
+
+    max-height: none;
+}
+
