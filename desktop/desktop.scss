@@ -492,12 +492,20 @@ input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:f
         content: ' ';
         transition: all 0.1s ease-in;
     }
+    
+    .extra-info-wrapper
+    {
+        .topic-link
+        {
+            color: white;
+        }
+    }
 }
 
 //
 // When docked, draw the background, lift up
 //
-body.docked .d-header-wrap header
+body .d-header-wrap.fixed header
 {
     margin-top: 0rem;
     margin-bottom: 2rem;
