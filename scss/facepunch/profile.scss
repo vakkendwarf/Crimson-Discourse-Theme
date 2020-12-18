@@ -118,3 +118,19 @@ body.user-summary-page {
     }
   }
 }
+
+// Messages
+body.archetype-private_messages {
+  #main-outlet {
+    max-width: 760px;
+    position: relative;
+    left: -45px;
+  }
+  #topic-title {
+    background-color: $offwhite;
+    border-top-left-radius: $radius;
+    border-top-right-radius: $radius;
+    padding: 1.5rem 1.5rem 0 1.5rem;
+    margin: 0;
+  }
+}
