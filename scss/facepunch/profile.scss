@@ -1,2 +1,24 @@
-.profile {
+body.user-summary-page {
+  .user-main {
+    background-color: var(--secondary);
+    border-radius: $radius;
+    @include box-shadow;
+
+    .about.has-background {
+      .user-profile-image {
+        border-top-left-radius: $radius;
+        border-top-right-radius: $radius;
+      }
+      .details {
+        padding: $padding;
+      }
+    }
+
+    .user-content-wrapper {
+      box-sizing: border-box;
+      padding: $padding;
+      .user-content {
+      }
+    }
+  }
 }
