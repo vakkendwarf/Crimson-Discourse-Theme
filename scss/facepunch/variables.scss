@@ -13,6 +13,11 @@ $sandbox: #ed207b;
 $radius: 8px;
 $radius-half: 4px;
 
+$padding: 2rem;
+$padding-small: 1rem;
+$padding-medium: 3rem;
+$padding-large: 4rem;
+
 // Responsive breakpoints
 $gap: 32px !default;
 $tablet: 769px !default;
@@ -31,6 +36,6 @@ $fullhd-enabled: true !default;
   --success: #03a9f4;
 }
 
-@mixin boxShadow {
+@mixin box-shadow {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 0 0 0 rgba(0, 0, 0, 0.12);
 }

@@ -21,7 +21,8 @@ body.groups-page {
     background-color: var(--secondary);
     box-sizing: border-box;
     border-radius: $radius;
-    padding: 2rem 2rem;
+    @include box-shadow;
+    padding: $padding;
   }
 }
 
@@ -29,7 +30,7 @@ body.groups-page {
   background-color: var(--secondary);
   box-sizing: border-box;
   border-radius: $radius;
-  padding: 2rem 2rem;
+  padding: $padding;
 }
 
 .topic-list-bottom {
