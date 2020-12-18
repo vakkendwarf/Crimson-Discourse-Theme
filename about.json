@@ -1,5 +1,5 @@
 {
-  "name": "FacepunchTheme",
+  "name": "Facepunch Theme",
   "component": false,
   "license_url": null,
   "about_url": null,
@@ -7,10 +7,9 @@
   "theme_version": null,
   "minimum_discourse_version": null,
   "maximum_discourse_version": null,
-  "assets": {
-  },
+  "assets": {},
   "color_schemes": {
-    "Light": {
+    "Facepunch_Default": {
       "primary": "171727",
       "secondary": "ffffff",
       "tertiary": "171727",
@@ -23,7 +22,6 @@
       "love": "e417c4"
     }
   },
-  "modifiers": {
-  },
+  "modifiers": {},
   "learn_more": "https://meta.discourse.org/t/beginners-guide-to-using-discourse-themes/91966"
 }
