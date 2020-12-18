@@ -1,5 +1,11 @@
 body {
   &.category {
+    &.category-meta-forum-suggestions {
+      .cateegory-heading {
+        padding: 0;
+      }
+    }
+
     // List View (Used on Sandbox)
     &.categories-list {
       div.list-controls {
