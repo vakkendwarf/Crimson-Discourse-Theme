@@ -53,6 +53,7 @@ body {
 
     // Category Header (With Logo).
     .category-heading {
+      padding: 2rem;
       border-radius: 9px 9px 0 0;
       position: relative;
       overflow: hidden;
@@ -74,10 +75,6 @@ body {
         );
       }
 
-      .category-logo {
-        margin: 1rem 1rem 1rem 0;
-      }
-
       .category-logo,
       .category-logo img {
         width: 64px;
@@ -85,6 +82,7 @@ body {
         margin: 0;
         border-radius: 10px;
         position: relative;
+        margin-right: 1rem;
 
         @media screen and (max-width: $tablet - 1px) {
           width: 40px;
