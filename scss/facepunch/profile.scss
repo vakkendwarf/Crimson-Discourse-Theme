@@ -3,6 +3,7 @@ body.user-summary-page {
     background-color: var(--secondary);
     border-radius: $radius;
     @include box-shadow;
+    position: relative;
 
     .about.has-background {
       .user-profile-image {
@@ -11,6 +12,14 @@ body.user-summary-page {
       }
       .details {
         padding: $padding;
+      }
+      .staff-counters {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        border-top-left-radius: $radius;
+        border-top-right-radius: $radius;
       }
     }
 
