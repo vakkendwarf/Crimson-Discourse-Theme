@@ -112,6 +112,22 @@
     .category-breadcrumb {
       display: none;
     }
+
+    .navigation-controls {
+      --nav-space: 0;
+    }
+  }
+
+  .select-kit.dropdown-select-box {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 46px;
+
+    button {
+      height: 100%;
+    }
   }
 
   button {
