@@ -115,6 +115,10 @@
 
     .navigation-controls {
       --nav-space: 0;
+      display: flex;
+      flex-direction: row-reverse;
+      flex: 1;
+      max-height: 46px;
     }
   }
 
@@ -147,6 +151,10 @@
       height: 0.8rem;
       color: $lightblue;
       transition: all 0.2s ease;
+    }
+
+    &.btn .d-button-label {
+      font-size: 1rem;
     }
 
     &:hover {
