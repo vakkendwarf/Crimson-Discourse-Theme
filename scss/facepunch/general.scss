@@ -1,12 +1,14 @@
 @import url(https://fonts.googleapis.com/css?family=Poppins);
 
 html,
-body {
-  margin: 0;
+body 
+{
+  margin: 100;
   padding: 0;
 }
 
-body {
+body 
+{
   background-image: url(https://files.facepunch.com/garry/ef5a054d-5a50-4dc3-8de3-61c34835c6a0.jpg);
   background-size: cover;
   background-position: center center;
@@ -14,7 +16,8 @@ body {
   background-attachment: fixed;
   position: relative;
 
-  &:before {
+  &:before 
+  {
     content: " ";
     background-color: #90afff47;
     position: fixed;
@@ -24,7 +27,8 @@ body {
     height: 100%;
   }
 
-  #main-outlet {
+  #main-outlet 
+  {
     margin-top: 2rem;
     margin-bottom: 5rem;
   }

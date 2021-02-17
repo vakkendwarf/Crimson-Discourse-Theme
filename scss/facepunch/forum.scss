@@ -16,7 +16,8 @@ body.static-privacy,
 body.tags-page,
 body.search-page,
 body.groups-page,
-body.static-guidelines {
+body.static-guidelines 
+{
   #main-outlet {
     background-color: var(--secondary);
     box-sizing: border-box;
@@ -24,6 +25,15 @@ body.static-guidelines {
     @include box-shadow;
     padding: $padding;
   }
+}
+
+div.edit-category 
+{
+  background-color: var(--secondary);
+  box-sizing: border-box;
+  border-radius: $radius;
+  @include box-shadow;
+  padding: $padding;
 }
 
 .reviewable {
