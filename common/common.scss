@@ -1,39 +1,54 @@
-.hljs {
+.hljs 
+{
   padding: 16px;
   border-radius: 2px;
-  background-color: #3c3c40;
+  background-color: #262629;
   color: #ccc;
   font-size: 12px;
 
-  .hljs-subst {
+  .hljs-subst,
+  .hljs-tag
+  {
     color: #ccc;
   }
 
   .hljs-keyword,
   .hljs-literal,
-  .hljs-built_in {
+  .hljs-built_in 
+  {
     color: #71beff;
     font-weight: normal;
   }
 
-  .hljs-string {
-    color: #da7c3a;
+  .hljs-string
+  {
+    color: #ec8236;
   }
 
-  .hljs-title {
+  .hljs-title,
+  .hljs-name
+  {
     color: #41d0a8;
     font-weight: normal;
   }
 
-  .hljs-number {
+  .hljs-number 
+  {
     color: #b2dc93;
   }
 
   .hljs-comment,
-  .hljs-doctag {
+  .hljs-doctag 
+  {
     font-style: normal;
     color: #52b713;
   }
 
   max-height: none;
+}
+
+
+.topic-timer-info:empty
+{
+  display: none;
 }
