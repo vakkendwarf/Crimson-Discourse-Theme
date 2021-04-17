@@ -1,0 +1,64 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+
+html,
+body 
+{
+  margin: 100;
+  padding: 0;
+}
+
+body 
+{
+  background-image: url(https://files.facepunch.com/garry/ef5a054d-5a50-4dc3-8de3-61c34835c6a0.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+
+  &:before 
+  {
+    content: " ";
+    background-color: #2e4170d2;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  #main-outlet 
+  {
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+  }
+}
+
+@media screen and (min-width: 925px) {
+  .wrap,
+  body #main-outlet {
+    max-width: 900px;
+  }
+}
+
+a {
+  color: var(--success);
+}
+
+a:visited {
+  color: var(--success-hover);
+}
+
+a:hover {
+  color: var(--success);
+}
+
+// Disable horrible highlight fade out
+.highlighted {
+  animation: background-fade-highlight 0s !important;
+}
+
+// Don't show the "this is their first post" thing
+.post-notice.new-user {
+  display: none;
+}

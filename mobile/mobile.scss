@@ -1,0 +1,39 @@
+@import "facepunch/variables";
+
+@import "facepunch/mobile/general";
+@import "facepunch/mobile/categories";
+
+
+.alert.alert-info
+{
+    margin: 10px 0;
+    padding: 5px 10px;
+    background-color: $brightblue;
+    color: rgba( white, 0.5 );
+
+    a
+    {
+        color: white;
+        text-decoration: underline;
+    }
+
+    .close 
+    {
+        right: 5px;
+        top: 5px;
+
+        .d-icon
+        {
+            color: white;
+        }
+    }
+}
+
+
+.list-controls .navigation-container .navigation-toggle a,
+.list-controls .btn
+{
+    background-color: white;
+    border: none;
+    font-size: 12px;
+}

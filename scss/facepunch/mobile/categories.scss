@@ -1,0 +1,115 @@
+
+.category
+{
+    margin-bottom: 20px;
+
+    .category-head
+    {
+        display: flex;
+        align-items: center;
+        padding: 10px;
+
+        .category-logo
+        {
+            img
+            {
+                width: 48px;
+                margin-right: 15px;
+                border-radius: 4px;
+            }
+        }
+
+        .category-title-link
+        {
+            flex-grow:  1;
+            display: flex;
+            flex-direction: column;
+
+            .category-name
+            {
+                font-size: 30px;
+                font-weight: bold;
+                font-family: Poppins;
+                color: white;
+            }
+
+            .category-description
+            {
+                display: none;
+            }
+        }
+
+        .stats
+        {
+            display: flex;
+            color: white;
+            font-size: 11px;
+
+            div
+            {
+                margin-left: 10px;
+            }
+        }
+
+        .unread-new a
+        {
+            padding: 5px 10px;
+        }
+    }
+
+    .subcategories
+    {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
+        justify-content: stretch;
+
+        .badge-wrapper.box
+        {
+            flex-grow: 1;
+            margin: 2px;
+            padding: 10px;
+            font-family: Poppins;
+            font-weight: 600;
+          //  mix-blend-mode: lighten;
+        }
+    }
+
+    .topics
+    {
+        display: flex;
+        flex-direction: column;
+
+        margin-top: 5px;
+        
+        .featured-topic
+        {
+            display: flex;
+            align-items: center;
+            overflow: hidden;
+            background-color: rgba( white, 0.2);
+            margin-bottom: 1px;
+
+            a
+            {
+                padding: 5px 8px;
+                color: rgba( white, 0.5 );
+                flex-shrink: 0;
+
+                &.title
+                {
+                    flex-grow: 1;
+                    font-size: 12px;
+                    white-space: nowrap;
+                    color: rgba( white, 0.8);
+                }
+
+                &.badge.badge-notification.new-topic
+                {
+                    &::before{ display:none;}
+                    color: white;
+                }
+            }
+        }
+    }
+}
