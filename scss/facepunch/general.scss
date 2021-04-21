@@ -62,3 +62,9 @@ a:hover {
 .post-notice.new-user {
   display: none;
 }
+
+// Display opaque background against image on "page not found" page
+.not-found-container {
+  border-radius: $radius;
+  background-color: var(--secondary);
+}
