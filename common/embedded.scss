@@ -3,13 +3,13 @@ body {
 }
 
 html.sbox {
-  background-color: #317ab3;
+  background-color: rgba(37,46,63,.4);
   color: #fff;
   font-size: 13px;
 
   --tertiary: #2b628c;
-  --primary-medium: #fff;
-  --primary-low: #4894d0;
+  --primary-medium: #ADB3CB;
+  --primary-low: rgba(37,46,63,.8);
   --primary-low-mid: #7cc4ff;
 
   a {
@@ -17,8 +17,9 @@ html.sbox {
   }
 
   .button {
-    color: var(--tertiary);
-    background-color: white;
+    color: #fff;
+    background-color: #3273EB;
+    border-radius: 4px;
     padding: 5px 10px;
   }
 
