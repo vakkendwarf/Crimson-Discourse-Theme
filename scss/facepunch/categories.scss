@@ -125,7 +125,21 @@
     // Set Styling for Rust Category
     &[data-category-id="3"] {
       .category-head {
-        background-image: url(https://files.facepunch.com/garry/a4855dbf-5c09-47bd-b950-74a0132e2a9d.png);
+        background-image: url(https://i.imgur.com/UiioEJd.jpeg);
+      }
+
+      .subcategories,
+      .topics {
+        .badge.badge-notification {
+          background-color: $rust !important;
+        }
+      }
+    }
+    
+    // Set Styling for Rust Category
+    &[data-category-id="4"] {
+      .category-head {
+        background-image: url(https://i.imgur.com/crWJP3T.jpeg);
       }
 
       .subcategories,
