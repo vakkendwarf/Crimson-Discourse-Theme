@@ -149,6 +149,19 @@
         }
       }
     }
+    
+    &[data-category-id="1"] {
+      .category-head {
+        background-image: url(https://i.imgur.com/E5nMG1L.png);
+      }
+
+      .subcategories,
+      .topics {
+        .badge.badge-notification {
+          background-color: $rust !important;
+        }
+      }
+    }
 
     // Set Styling for Gmod Category (Set to 9)
     &[data-category-id="9"] {
