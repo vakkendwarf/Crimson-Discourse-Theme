@@ -149,10 +149,23 @@
         }
       }
     }
-    
+
     &[data-category-id="1"] {
       .category-head {
         background-image: url(https://i.imgur.com/E5nMG1L.png);
+      }
+
+      .subcategories,
+      .topics {
+        .badge.badge-notification {
+          background-color: $rust !important;
+        }
+      }
+    }
+    
+    &[data-category-id="6"] {
+      .category-head {
+        background-image: url(https://i.imgur.com/PA7XvcB.png);
       }
 
       .subcategories,
