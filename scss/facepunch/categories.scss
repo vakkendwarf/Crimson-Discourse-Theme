@@ -338,7 +338,9 @@
         {
           float: none;
           margin: 0;
-          padding: 0;
+          padding: 0 1px;
+          display: flex;
+          display-direction: row;
 
           .topic-status,
           a {
